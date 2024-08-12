@@ -6,7 +6,7 @@ platforms = ["linux-64"]
 version = "0.1.0"
 
 [tasks]
-serve = "caddy run --config=Caddyfile"
+serve = "caddy run"
 
 [dependencies]
 caddy = ">=2.8.4,<3"

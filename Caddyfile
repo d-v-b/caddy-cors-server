@@ -1,7 +1,7 @@
 {
 	debug
 }
-:8000 {
+:9998 {
 	file_server {
 		browse
 		root /shared/s3
