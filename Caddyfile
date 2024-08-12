@@ -4,7 +4,7 @@
 :9998 {
 	file_server {
 		browse
-		root $SERVE_DIR
+		root {$SHARE_DIR}
 	}
 	header {
 		Access-Control-Allow-Headers *
