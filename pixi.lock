@@ -1,0 +1,21 @@
+version: 5
+environments:
+  default:
+    channels:
+    - url: https://conda.anaconda.org/conda-forge/
+    packages:
+      linux-64:
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/caddy-2.8.4-ha770c72_0.conda
+packages:
+- kind: conda
+  name: caddy
+  version: 2.8.4
+  build: ha770c72_0
+  subdir: linux-64
+  url: https://conda.anaconda.org/conda-forge/linux-64/caddy-2.8.4-ha770c72_0.conda
+  sha256: 5b1a5287810a98762618b688ad5d8219b21e412775edff78432098b362a0a676
+  md5: bbad676f5df5a14f42090e5c79fd608e
+  license: Apache-2.0
+  license_family: APACHE
+  size: 12027958
+  timestamp: 1717370595316

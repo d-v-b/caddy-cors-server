@@ -1,0 +1,12 @@
+[project]
+channels = ["conda-forge"]
+description = "Serve files with caddy"
+name = "server"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+serve = "caddy run --config=Caddyfile"
+
+[dependencies]
+caddy = ">=2.8.4,<3"

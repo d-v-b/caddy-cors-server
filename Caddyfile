@@ -1,0 +1,14 @@
+{
+	debug
+}
+:8000 {
+	file_server {
+		browse
+		root /shared/s3
+	}
+	header {
+		Access-Control-Allow-Headers *
+		Access-Control-Allow-Methods GET
+		Access-Control-Allow-Origin *
+	}
+}
