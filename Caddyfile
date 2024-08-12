@@ -4,7 +4,7 @@
 :9998 {
 	file_server {
 		browse
-		root /shared/s3
+		root $SERVE_DIR
 	}
 	header {
 		Access-Control-Allow-Headers *
