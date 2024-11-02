@@ -1,10 +1,7 @@
-{
-	debug
-}
 :9998 {
 	file_server {
 		browse
-		root {$SHARE_DIR}
+		root {$SERVE_DIR}
 	}
 	header {
 		Access-Control-Allow-Headers *

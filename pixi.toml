@@ -6,7 +6,7 @@ platforms = ["linux-64"]
 version = "0.1.0"
 
 [tasks]
-serve = "export SERVE_DIR=$0 && caddy run"
+serve = "export SERVE_DIR=. && echo $SERVE_DIR && caddy run"
 
 [dependencies]
 caddy = ">=2.8.4,<3"
